@@ -1,0 +1,53 @@
+@media (max-width: 600px) {
+	.signup-container {
+		display: flex;
+	    flex-flow: column;
+	    align-items: center;
+	    justify-content: space-between;
+	    .wrapper {
+		    display: flex;
+		    flex-flow: column;
+		    align-items: center;
+	    }
+	    input {
+	    	border: 1px solid #e7ecf1;
+		    border-radius: 3px;
+		    width: calc(100vw - 95px);
+		    height: 50px;
+		    padding: 15px;
+		    color: #7b868a;
+		    margin-top: 20px;
+		    &.checkbox {
+		        width: 17px;
+			    height: 17px;
+			    margin-top: 0;
+			    border: solid 1px #e7ecf1;
+			    background: white;
+		    }
+	    }
+	    .error {
+	    	font-size: 12px;
+	    	line-height: 18px;
+	    	width: calc(100vw - 95px);
+	    	margin-top: 8px;
+	    }
+	    .button {
+		    width: calc(100vw - 95px);
+		    background: #3aafa5;
+		    color: white;
+		    height: 50px;
+		    text-align: center;
+		    vertical-align: middle;
+		    padding: 15px;
+		    margin-top: 20px;
+		    border-radius: 3px;
+		    text-decoration: none;
+		    font-size: 16px;
+		    font-weight: 500;
+		    &:hover {
+				background-color: #2e8e86;
+		    }
+		}
+
+	}
+}

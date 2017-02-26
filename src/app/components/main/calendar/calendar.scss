@@ -1,0 +1,98 @@
+.calSelectDialog {
+	width: 90%;
+	max-width: 90%;
+}
+@media (max-width: 600px) {
+	.calSelectDialog {
+		width: 98%;
+		max-width: 98%;
+	}
+}
+.dialog-content-broker.calendarPopup {
+	height: auto;
+	align-items: flex-start;
+}
+.md-event-calendar-month-cell-header {
+	text-transform: capitalize;
+	text-align: center;
+}
+md-event-calendar.md-event-calendar-cell-event {
+	background-color: #3aafa5;
+}
+.md-stepper-indicator.md-completed md-stepper-indicator-wrapper {
+	background: #fbfbfb;
+}
+md-event-calendar .md-event-calendar-cell-event {
+	background-color: #3aafa5;
+	color: white;	
+}
+md-event-calendar .md-event-calendar-cell-event.GREEN {
+	background-color: #1abc9c;
+	color: white;
+}
+md-event-calendar .md-event-calendar-cell-event.RED {
+	background-color: #ec7063;
+	color: white;
+}
+md-event-calendar .md-event-calendar-cell-event.GOLDEN {
+	background-color: #f39c12;
+	color: white;
+}
+.md-dialog-content-body{
+	padding-top:12px;
+}
+md-event-calendar._md.md-primary md-event-calendar-month .md-event-calendar-month-row-header {
+	background: #3498db;
+    height: 60px;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+md-event-calendar-header {
+	background: #fff;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	color: #4f6379;
+}
+
+md-event-calendar._md.md-primary md-event-calendar-header {
+	background: #fff;
+}
+.md-event-calendar-header-label {
+	color: #4f6379;
+}
+md-event-calendar._md.md-primary md-event-calendar-header md-event-calendar-next .md-arrow svg, md-event-calendar._md.md-primary md-event-calendar-header md-event-calendar-prev .md-arrow svg {
+	fill: #4f6379;
+}
+
+.filledDot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 3px;
+    margin-right: 9px;
+    &.GREEN {
+    	background-color: #1abc9c;
+	}
+	&.RED {
+		background-color: #ec7063;
+	}
+	&.GOLDEN {
+		background-color: #f39c12;
+    }
+}
+
+.formattedStatus {
+	&.GREEN {
+    	color: #1abc9c;
+	}
+	&.RED {
+		color: #ec7063;
+	}
+	&.GOLDEN {
+		color: #f39c12;
+    }
+}
